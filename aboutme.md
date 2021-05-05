@@ -1,16 +1,15 @@
----
-layout: page
-title: About me
-subtitle: Why you'd want to go on a date with me
----
+### Hi there 👋
 
-My name is Inigo Montoya. I have the following qualities:
+<!--
+**bosoud/bosoud** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.-->
 
-- I rock a great mustache
-- I'm extremely loyal to my family
-
-What else do you need?
-
-### My story
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+Here are some ideas to get you started:
+- 👋 Hi, I’m Abdulwahab alkharaz.
+- 👀 I’m interested in Programing (Swift/Python)
+- 🌱 I’m currently learning Django Framework
+- 📫 How to reach me Twitter: @bosoud2 Instagram: @bosoud
+- 🔭 I’m currently working on django Project.
+- 👯 I’m looking to collaborate on swift library for public use.
+- 🤔 I’m looking for help with any think i can.
+- 😄 Pronouns: Bo Soud
+- ⚡ Fun fact: My Nickname on Old time IRC was : DOOOSH
