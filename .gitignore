@@ -1,13 +1,16 @@
-# project
-_site
-.sass-cache
-.vagrant
-
-# general
+# OS files
 .DS_Store
 Thumbs.db
 ehthumbs.db
+*.swp
+*.swo
+*~
 
-Gemfile.lock
+# Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
 
-beautiful-jekyll-theme-*.gem
+# Logs
+*.log
