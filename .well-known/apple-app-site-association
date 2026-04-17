@@ -1,0 +1,18 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["7UVE43GVS4.com.bosoud.geem"],
+        "components": [
+          {
+            "/": "/geem-web/buzz/*",
+            "comment": "Opens Geem main app to buzzer deep-link when installed"
+          }
+        ]
+      }
+    ]
+  },
+  "appclips": {
+    "apps": ["7UVE43GVS4.com.bosoud.geem.Clip"]
+  }
+}
