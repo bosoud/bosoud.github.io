@@ -4,6 +4,7 @@
       {
         "appIDs": ["7UVE43GVS4.com.bosoud.geem"],
         "components": [
+<<<<<<< HEAD
           {
             "/": "/geem-web/buzz/*",
             "comment": "Opens Geem main app to buzzer deep-link when installed"
@@ -14,5 +15,16 @@
   },
   "appclips": {
     "apps": ["7UVE43GVS4.com.bosoud.geem.Clip"]
+=======
+          { "/": "/geem-web/join", "comment": "Buzzer join from share/QR" },
+          { "/": "/geem-web/join/*", "comment": "Buzzer join with peer code path" },
+          { "/": "/geem-web/pack/*", "comment": "Pack import deep link" },
+          { "/": "/join" },
+          { "/": "/join/*" },
+          { "/": "/pack/*" }
+        ]
+      }
+    ]
+>>>>>>> fb559a7 (Add Geem AASA + privacy policy page)
   }
 }
