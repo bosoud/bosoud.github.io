@@ -29,15 +29,13 @@
     header { margin-bottom: 36px; padding-bottom: 24px; border-bottom: 1px solid #2a2a40; }
     h1 { font-size: 32px; margin: 0 0 8px; font-weight: 800; }
     h2 { font-size: 20px; margin: 36px 0 12px; font-weight: 700; color: var(--accent); }
-    h3 { font-size: 16px; margin: 24px 0 8px; font-weight: 600; }
     .meta { color: var(--muted); font-size: 14px; }
     p, li { color: #E2E8F0; }
     a { color: var(--link); }
-    code { background: var(--card); padding: 2px 6px; border-radius: 4px; font-size: 0.92em; }
     .lang-switch { margin: 12px 0 0; font-size: 14px; }
     .lang-switch a { margin-right: 12px; }
     section.ar { direction: rtl; text-align: right; font-family: "SF Arabic", -apple-system, system-ui, sans-serif; }
-    section.ar h2, section.ar h3 { color: var(--accent); }
+    section.ar h2 { color: var(--accent); }
     hr { margin: 56px 0; border: 0; border-top: 1px solid #2a2a40; }
     ul { padding-left: 22px; }
     section.ar ul { padding-left: 0; padding-right: 22px; }
@@ -54,67 +52,50 @@
 
     <section id="en">
       <h2>Overview</h2>
-      <p>Geem (the “app”) is an Arabic trivia and party game published by Abdulwahab Alkharaz (“we,” “us,” “Bosoud”). This page explains what data the app collects, why, and what you can do about it.</p>
+      <p>Geem (the “app”) is an Arabic trivia and party game published by Abdulwahab Alkharaz (“we,” “us,” “Bosoud”). The short version: <strong>we do not collect any personal data from this app</strong>.</p>
 
-      <h2>Data we do <em>not</em> collect</h2>
+      <h2>What we don't collect</h2>
       <ul>
-        <li>We do not collect your name, email, phone number, address, or any free-text you type into the app (game names, custom category content, team names, player names, custom questions).</li>
-        <li>We do not track you across other apps or websites. We do not use Apple’s Identifier for Advertisers (IDFA).</li>
-        <li>Game audio, video, photos imported from your device, and your custom content stay on your device.</li>
+        <li>We do not collect your name, email, phone number, or address.</li>
+        <li>We do not collect any text you type into the app — game names, custom category content, team names, player names, custom questions all stay on your device.</li>
+        <li>We do not collect analytics, usage data, crash reports, device identifiers, or any technical telemetry.</li>
+        <li>We do not track you across other apps or websites. We do not use Apple's Identifier for Advertisers (IDFA).</li>
+        <li>Game audio, video, and photos imported from your device stay on your device and are never sent to us.</li>
       </ul>
-
-      <h2>Data we do collect</h2>
-      <p>To improve Geem’s reliability and understand which features matter, the app uses <strong>Google Firebase Analytics</strong> and <strong>Google Firebase Crashlytics</strong>. These services collect:</p>
-      <ul>
-        <li><strong>A pseudonymous device identifier</strong> (Firebase Installation ID — distinct from Apple’s IDFA) so we can group events from the same install. Never linked to your name, email, or App Store account.</li>
-        <li><strong>In-app interactions</strong> — eight aggregate event types: app install, first game completion, paywall view, paywall dismiss, subscription purchase, pack purchase, share invocation, and a daily heartbeat. We do not collect game answers, custom content, or any free text.</li>
-        <li><strong>Crash and performance data</strong> — stack traces, device model, OS version, and app version when the app crashes, plus launch and foreground timing.</li>
-      </ul>
-      <p>Data is processed by Google on our behalf in their global infrastructure under Google’s privacy commitments to Firebase developers. See <a href="https://firebase.google.com/terms/data-processing-terms">Google Firebase data processing terms</a> and <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
 
       <h2>Purchases</h2>
-      <p>In-app purchases (subscription, game packs, single-game pass) are processed by Apple’s App Store. We never see your payment details. Apple sends us anonymized purchase confirmations so we can unlock your purchases on your device. See <a href="https://www.apple.com/legal/privacy/">Apple’s Privacy Policy</a>.</p>
+      <p>In-app purchases (subscription, game packs, single-game pass) are processed by Apple's App Store. We never see your payment details. Apple sends us anonymized purchase confirmations so we can unlock your purchases on your device. See <a href="https://www.apple.com/legal/privacy/">Apple's Privacy Policy</a>.</p>
 
       <h2>iCloud</h2>
       <p>Your game credit balance is backed up to your private iCloud Key-Value Store so it survives reinstalls on devices signed into your Apple ID. The data stays in your iCloud account; we do not have access to it.</p>
 
       <h2>Buzzer mode</h2>
-      <p>Buzzer mode uses Apple’s MultipeerConnectivity over your local Wi‑Fi to connect phones in the same room. Only the host phone runs the game; player phones send button taps. No data leaves your local network during a buzzer game.</p>
+      <p>Buzzer mode uses Apple's MultipeerConnectivity over your local Wi-Fi to connect phones in the same room. Only the host phone runs the game; player phones send button taps. No data leaves your local network during a buzzer game.</p>
 
       <h2>Children</h2>
-      <p>The app is rated 4+ and does not knowingly collect data from children. The data Firebase collects is technical (device ID, crash logs) and contains no identifying information about who is using the device.</p>
-
-      <h2>Your rights</h2>
-      <p>You can request deletion of all Firebase telemetry associated with your device by emailing <a href="mailto:doooshxp@gmail.com">doooshxp@gmail.com</a> with the subject “Delete my Geem data” and a description of the device involved. Firebase data is also automatically deleted by Google after 14 months of inactivity.</p>
+      <p>The app is rated 4+ and does not collect data from children — or anyone else.</p>
 
       <h2>Changes</h2>
-      <p>If we change this policy materially we will update the date at the top and, where reasonable, post a notice in the app. Continued use of the app after a change constitutes acceptance of the new policy.</p>
+      <p>If we change this policy materially we will update the date at the top and, where reasonable, post a notice in the app.</p>
 
       <h2>Contact</h2>
-      <p>Questions, concerns, or data deletion requests: <a href="mailto:doooshxp@gmail.com">doooshxp@gmail.com</a>.</p>
+      <p>Questions or concerns: <a href="mailto:doooshxp@gmail.com">doooshxp@gmail.com</a>.</p>
     </section>
 
     <hr>
 
     <section id="ar" class="ar">
       <h2>نظرة عامة</h2>
-      <p>قييم (التطبيق) لعبة مسابقات وتحدّي عربيّة من إصدار عبدالوهاب الخراز («نحن»، «بُسود»). هذه الصفحة توضّح أيّ بيانات يجمعها التطبيق ولماذا، وما تستطيع فعله حيالها.</p>
+      <p>قييم (التطبيق) لعبة مسابقات وتحدّي عربيّة من إصدار عبدالوهاب الخراز («نحن»، «بُسود»). باختصار: <strong>لا نجمع أيّ بيانات شخصيّة من هذا التطبيق</strong>.</p>
 
-      <h2>بيانات <em>لا</em> نجمعها</h2>
+      <h2>ما لا نجمعه</h2>
       <ul>
-        <li>لا نجمع اسمك، أو بريدك الإلكتروني، أو رقم هاتفك، أو عنوانك، أو أيّ نصّ حرّ تدخله في التطبيق (أسماء الألعاب، التصنيفات المخصّصة، أسماء الفرق، أسماء اللاعبين، الأسئلة المخصّصة).</li>
+        <li>لا نجمع اسمك، أو بريدك الإلكتروني، أو رقم هاتفك، أو عنوانك.</li>
+        <li>لا نجمع أيّ نصّ تكتبه داخل التطبيق — أسماء الألعاب، التصنيفات المخصّصة، أسماء الفرق، أسماء اللاعبين، الأسئلة المخصّصة كلّها تبقى على جهازك.</li>
+        <li>لا نجمع تحليلات، بيانات استخدام، تقارير أعطال، معرّفات أجهزة، أو أيّ بيانات تقنيّة.</li>
         <li>لا نتعقّبك عبر التطبيقات أو المواقع الأخرى. لا نستخدم معرّف Apple للإعلانات (IDFA).</li>
-        <li>أصوات اللعبة، الفيديوهات، الصور التي تستوردها، ومحتواك المخصّص يبقى على جهازك.</li>
+        <li>أصوات اللعبة، الفيديوهات، والصور التي تستوردها من جهازك تبقى على جهازك ولا تُرسَل إلينا أبدًا.</li>
       </ul>
-
-      <h2>بيانات نجمعها</h2>
-      <p>لتحسين موثوقيّة قييم وفهم المزايا الأهمّ، يستخدم التطبيق خدمتَي <strong>Google Firebase Analytics</strong> و<strong>Google Firebase Crashlytics</strong>. تجمع هاتان الخدمتان:</p>
-      <ul>
-        <li><strong>معرّف جهاز مستعار</strong> (Firebase Installation ID — مختلف عن معرّف Apple للإعلانات IDFA) للتمييز بين عمليّات التثبيت. لا يُربط باسمك أو بريدك الإلكتروني أو حساب App Store الخاصّ بك.</li>
-        <li><strong>التفاعلات داخل التطبيق</strong> — ثمانية أحداث مجمّعة: تثبيت التطبيق، إكمال أوّل لعبة، عرض شاشة الاشتراك، إغلاقها دون شراء، شراء اشتراك، شراء باقة، استدعاء المشاركة، ونبضة يوميّة. لا نجمع إجابات الأسئلة أو المحتوى المخصّص أو أيّ نصّ حرّ.</li>
-        <li><strong>بيانات الأعطال والأداء</strong> — تتبّع التعطّل، طراز الجهاز، إصدار النظام، وإصدار التطبيق عند تعطّله، إضافةً إلى أوقات التشغيل.</li>
-      </ul>
-      <p>تُعالَج البيانات من قبل Google نيابةً عنّا في بنيتها التحتيّة العالميّة وفقًا لالتزامات Google تجاه مطوّري Firebase. انظر <a href="https://firebase.google.com/terms/data-processing-terms">شروط معالجة بيانات Firebase</a> و<a href="https://policies.google.com/privacy?hl=ar">سياسة خصوصيّة Google</a>.</p>
 
       <h2>المشتريات</h2>
       <p>المشتريات داخل التطبيق (الاشتراك، باقات الألعاب، تذكرة لعبة واحدة) تُعالَج عبر متجر Apple. لا نرى تفاصيل دفعك أبدًا. ترسل Apple تأكيدات شراء مجهولة الهويّة لنفتح لك مشترياتك على جهازك. انظر <a href="https://www.apple.com/legal/privacy/">سياسة خصوصيّة Apple</a>.</p>
@@ -123,19 +104,16 @@
       <p>يتمّ نسخ رصيد ألعابك احتياطيًا في مخزن iCloud Key-Value الخاصّ بك حتى يبقى عبر إعادة التثبيت على الأجهزة المسجَّلة بمعرّف Apple نفسه. تبقى البيانات داخل حسابك في iCloud؛ لا نملك صلاحيّة الوصول إليها.</p>
 
       <h2>وضع الجرس (Buzzer)</h2>
-      <p>يستخدم وضع الجرس تقنيّة MultipeerConnectivity من Apple عبر شبكة Wi‑Fi المحليّة لربط الجوالات في الغرفة نفسها. الجهاز المضيف فقط يدير اللعبة؛ بقيّة الجوالات ترسل ضغطات الأزرار. لا تخرج أيّ بيانات من شبكتك المحليّة أثناء لعبة الجرس.</p>
+      <p>يستخدم وضع الجرس تقنيّة MultipeerConnectivity من Apple عبر شبكة Wi-Fi المحليّة لربط الجوالات في الغرفة نفسها. الجهاز المضيف فقط يدير اللعبة؛ بقيّة الجوالات ترسل ضغطات الأزرار. لا تخرج أيّ بيانات من شبكتك المحليّة أثناء لعبة الجرس.</p>
 
       <h2>الأطفال</h2>
-      <p>التطبيق مصنّف +٤ ولا يجمع عمدًا بياناتٍ من الأطفال. البيانات التي يجمعها Firebase تقنيّة (معرّف جهاز، سجلّات أعطال) ولا تحتوي على معلومات تعريفيّة عن مستخدم الجهاز.</p>
-
-      <h2>حقوقك</h2>
-      <p>يمكنك طلب حذف جميع بيانات Firebase المرتبطة بجهازك عبر إرسال بريد إلكترونيّ إلى <a href="mailto:doooshxp@gmail.com">doooshxp@gmail.com</a> بعنوان «احذف بياناتي في قييم» مع وصف الجهاز المعنيّ. كذلك تحذف Google تلقائيًّا بيانات Firebase بعد ١٤ شهرًا من الخمول.</p>
+      <p>التطبيق مصنّف +٤ ولا يجمع بيانات من الأطفال — ولا من أيّ شخص آخر.</p>
 
       <h2>التغييرات</h2>
-      <p>إن غيّرنا هذه السياسة جوهريًّا فسنحدّث التاريخ أعلى الصفحة، وسننشر إشعارًا داخل التطبيق متى كان ذلك معقولًا. استمرارك في استخدام التطبيق بعد التغيير يُعدّ قبولًا للسياسة الجديدة.</p>
+      <p>إن غيّرنا هذه السياسة جوهريًّا فسنحدّث التاريخ أعلى الصفحة، وسننشر إشعارًا داخل التطبيق متى كان ذلك معقولًا.</p>
 
       <h2>التواصل</h2>
-      <p>للاستفسارات أو الشكاوى أو طلبات حذف البيانات: <a href="mailto:doooshxp@gmail.com">doooshxp@gmail.com</a>.</p>
+      <p>للاستفسارات أو الشكاوى: <a href="mailto:doooshxp@gmail.com">doooshxp@gmail.com</a>.</p>
     </section>
 
     <p class="footer-note">© 2026 Bosoud · Geem is a trademark of Abdulwahab Alkharaz.</p>
